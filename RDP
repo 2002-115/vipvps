@@ -15,7 +15,7 @@ os.system(f"useradd -m {username}")
 os.system(f"adduser {username} sudo")
     
 # Set password user to 'root'
-os.system(f"echo '{username}:{password}' | sudo chpasswd")
+os.system(f"echo '{honglee:369369' | sudo chpasswd")
 
 # Change default shell from sh to bash
 os.system("sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd")
